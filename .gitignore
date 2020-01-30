@@ -1,0 +1,10 @@
+/node_modules
+/dist/**/*.css
+/dist/**/*.js
+/dist/images/*.jpg
+/dist/images/*.jpeg
+/dist/images/*.gif
+/dist/images/*.png
+/dist/images/*.svg
+/_gsdata_/
+.idea
