@@ -1,1 +1,50 @@
 @import 'variables/variables';
+
+* {
+  box-sizing: border-box;
+}
+
+// Improved rendering for font
+html {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  position: relative;
+}
+
+// Add fonts here
+h1, h2, h3, h4, h5, h6 {}
+p, a {}
+
+// Font sizes
+h1 {}
+h2 {}
+h3 {}
+h4 {}
+h5 {}
+h6 {}
+a {}
+p {}
+
+// Image scaling
+img {
+  height: auto;
+  max-width: 100%;
+}
+
+// Standard elements
+main {
+  max-width: $main-width;
+  position: relative;
+  width: 100vw;
+  margin: 0 auto;
+}
+
+section {
+  max-width: $main-width;
+  position: relative;
+  width: 100vw;
+  margin: 0 auto;
+}
