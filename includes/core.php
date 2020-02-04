@@ -35,3 +35,25 @@ function aesir_setup() {
     do_action('aesir_setup');
 }
 add_action('after_setup_theme', 'aesir_setup');
+
+/**
+ * Include a partial file. Use it like this:
+ * aesir_partial('example');
+ *
+ * @param $partial_name
+ * @param $partial_folder ** Optional **
+ * @return mixed
+ *
+ * @since 1.0.1
+ * @version 1.0.0
+ */
+
+function aesir_partial($partial_name, $partial_folder = null) {
+
+    if (!empty($partial_folder)) {
+        return include(locate_template('partials/'. $partial_folder . '/' . $partial_name . '.php'));
+    } else {
+        return include(locate_template('partials/' . $partial_name . '.php'));
+    }
+
+}
