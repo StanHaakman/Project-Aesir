@@ -48,3 +48,25 @@ section {
   width: 100vw;
   margin: 0 auto;
 }
+
+div {}
+
+// Classes
+.container {
+  max-width: $main-width;
+  margin: 0 auto;
+}
+
+.d-hidden {
+  @media screen and (min-width: 767px) {
+    display: none;
+  }
+}
+
+.m-hidden {
+  @media screen and (max-width: 767px) {
+    display: none;
+  }
+}
+
+// Add code after this
