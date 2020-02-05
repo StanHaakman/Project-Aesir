@@ -23,7 +23,7 @@ function aesir_setup() {
     // Requirements
     //  - Post-thumbnail support
     //  - Menu locations
-    //  - Run fuction
+    //  - Run function
 
     add_theme_support('post-thumbnails');
 
