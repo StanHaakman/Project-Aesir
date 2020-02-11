@@ -12,6 +12,8 @@ html {
 
 body {
   position: relative;
+  max-width: 100vw;
+  overflow-x: hidden;
 }
 
 // Add fonts here
